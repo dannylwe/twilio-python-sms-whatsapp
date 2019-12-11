@@ -5,5 +5,9 @@ create a .env file with "account_sid" and "auth_token" that can be obtained from
 
 Use the .env-sample for reference  
 
-## to run script  
+## to run script
+this project requires pipenv to be installed.
+run `pipenv shell` at root of directory
+run `pipenv install`  
+to run a specific script:  
 `python send.py`  
